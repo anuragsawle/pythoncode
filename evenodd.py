@@ -1,5 +1,9 @@
+def checkEvenOdd(num):
+	if num%2==0:
+		print('Even')
+	else:
+		print('Odd')
+
+
 a= 15
-if a%2==0:
-    print('Even')
-else:
-    print('odd')
+checkEvenOdd(a)
